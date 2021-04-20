@@ -151,8 +151,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Chitiva
+  first_name: [Miguel, A.]
 
   style: apa
   locale: en
@@ -163,7 +163,6 @@ scholar:
 
   replace_strings: true
   join_strings: true
-  bibtex_filters:
 
   details_dir: bibliography
   details_layout: bibtex.html
