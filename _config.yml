@@ -26,7 +26,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 900px
+max_width: 2048px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -131,6 +131,7 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-jupyter-notebook
 
 # Extras
 github: [metadata]
