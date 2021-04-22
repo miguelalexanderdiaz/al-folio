@@ -9,6 +9,4 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
-    gem "jekyll-jupyter-notebook"
-
 end

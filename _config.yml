@@ -52,7 +52,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: 'https://www.grupodot.com/en/' # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
@@ -63,36 +63,37 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: Blog  # your blog must have a name for it to show up in the nav bar
-blog_description: a space for ML/DS thoughts
-permalink: /blog/:year/:title/
-
-# Pagination
-pagination:
-  enabled: true
-
-# Comments
-disqus_shortname: miguel-chitiva-diaz # put your disqus shortname
-
-# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
 collections:
+  tf_projects:
+    output: true
+    permalink: /tf_projects/:path/
   news:
     defaults:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
 
 news_limit: 5
 
+# # -----------------------------------------------------------------------------
+# # Blog
+# # -----------------------------------------------------------------------------
+#
+# blog_name: Blog  # your blog must have a name for it to show up in the nav bar
+# blog_description: a space for ML/DS thoughts
+# permalink: /blog/:year/:title/
+#
+# # Pagination
+# pagination:
+#   enabled: true
+#
+# # Comments
+# disqus_shortname: miguel-chitiva-diaz # put your disqus shortname
+#
+#
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -131,7 +132,6 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-jupyter-notebook
 
 # Extras
 github: [metadata]
