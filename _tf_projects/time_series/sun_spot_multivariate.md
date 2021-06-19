@@ -4,7 +4,7 @@ title: Multivariate Regression
 description: Prediction of the Ammount of Sun Spots Using a Multivariate Time Series
 img: /assets/img/sun_spots.png
 importance: 3
-category: time series
+category: time_series
 classes: wide
 ---
 

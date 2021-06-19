@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
 
 news: true  # includes a list of news items
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 
