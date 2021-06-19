@@ -8,7 +8,7 @@ display_categories: [time series, visual]
 horizontal: false
 ---
 
-<img src="/test/assets/img/tensorflow_logo.png" width="200">
+<img src="/assets/img/tensorflow_logo.png" width="200">
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}

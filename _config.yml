@@ -44,7 +44,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: miguelalexanderdiaz
 gitlab_username: # your GitLab user name
 twitter_username: miguel_chitivad # your Twitter handle
-linkedin_username: miguel-chitiva# your LinkedIn user name
+linkedin_username: miguel-chitiva # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -59,8 +59,8 @@ wikidata_id: # your wikidata id
 contact_note: >
   I commonly answer first on linkedin
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+# google_analytics: UA-XXXXXXXXX # out your google-analytics code
+# panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -78,25 +78,25 @@ collections:
 
 news_limit: 5
 
-# # -----------------------------------------------------------------------------
-# # Blog
-# # -----------------------------------------------------------------------------
-#
-# blog_name: Blog  # your blog must have a name for it to show up in the nav bar
-# blog_description: a space for ML/DS thoughts
-# permalink: /blog/:year/:title/
-#
-# # Pagination
-# pagination:
-#   enabled: true
-#
-# # Comments
-# disqus_shortname: miguel-chitiva-diaz # put your disqus shortname
-#
-#
+#-----------------------------------------------------------------------------
+# Blog
 # -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
+
+blog_name: Blog  # your blog must have a name for it to show up in the nav bar
+blog_description: a space for ML/DS thoughts
+permalink: /blog/:year/:title/
+
+# Pagination
+pagination:
+  enabled: true
+
+# Comments
+disqus_shortname: miguel-chitiva-diaz # put your disqus shortname
+
+
+#-----------------------------------------------------------------------------
+#Jekyll settings
+#-----------------------------------------------------------------------------
 
 # Markdown and syntax highlight
 markdown: kramdown
