@@ -7,23 +7,14 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
+  address: >
+    <p>Miguel Alexander Chitiva Díaz</p>
+    <p>Bogotá, Colombia</p>
+
 
 news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
-
-
-
-
-
-{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
-{% endfor %}
 
 
 
