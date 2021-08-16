@@ -4,9 +4,12 @@ title: TensorFlow
 permalink: /tf_projects/
 description: A series of Machine Learning mini-projects using TensorFlow as framework.
 nav: true
-display_categories: [time series, visual]
+display_categories: [time series, visual, generative]
 horizontal: false
 ---
+
+
+
 
 <img src="/assets/img/tensorflow_logo.png" width="200">
 

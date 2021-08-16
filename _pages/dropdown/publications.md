@@ -1,6 +1,6 @@
----
+<!-- ---
 layout: page
-permalink: /publications/
+permalink: /submenus/publications/
 title: publications
 description: publications by categories in reversed chronological order.
 years: [2015]
@@ -14,4 +14,4 @@ nav: true
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div>
+</div> -->
