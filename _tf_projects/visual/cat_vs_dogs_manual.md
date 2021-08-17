@@ -8,7 +8,6 @@ category: visual
 tags: tensorflow visual classification
 ---
 
-# Just text
-
-___
+{::nomarkdown}
 {% include_relative html_notebooks/cat_vs_dogs_manual_data_augmentation.html %}
+{:/nomarkdown}

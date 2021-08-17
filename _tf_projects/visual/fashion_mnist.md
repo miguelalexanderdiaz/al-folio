@@ -7,7 +7,6 @@ importance: 1
 category: visual
 ---
 
-# Just text
-
-___
+{::nomarkdown}
 {% include_relative html_notebooks/fashion_mnist.html %}
+{:/nomarkdown}

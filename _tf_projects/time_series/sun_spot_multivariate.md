@@ -8,7 +8,6 @@ category: time series
 classes: wide
 ---
 
-# Just text
-
-___
+{::nomarkdown}
 {% include_relative html_notebooks/sun_spot_multivariate.html %}
+{:/nomarkdown}
