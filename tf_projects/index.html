@@ -11,7 +11,7 @@
   Personal Blog
 
 
-  | blog
+  | TensorFlow
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/tf_projects/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -101,11 +101,9 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
@@ -131,9 +129,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/tf_projects/">
                 TensorFlow
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -193,56 +193,134 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Blog</h1>
-    <h2>a space for ML/DS thoughts</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">TensorFlow</h1>
+    <p class="post-description">A series of Machine Learning mini-projects using TensorFlow as framework.</p>
+  </header>
 
+  <article>
+    <p><img src="/assets/img/tensorflow_logo.png" width="200" /></p>
 
-  <ul class="post-list">
+<div class="projects">
+  
+  <!-- Display categorized projects -->
     
-      <li>
-        <h3><a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">May 22, 2021</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
+      <h2 class="category">time series</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="/tf_projects/time_series/sun_spot_multivariate/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/sun_spots.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Multivariate Regression</h2>
+        <p class="card-text">Prediction of the Ammount of Sun Spots Using a Multivariate Time Series</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
     
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
+      <h2 class="category">visual</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="/tf_projects/visual/cat_vs_dogs_manual/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/cat_vs_dogs.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Cats vs Dogs Manual Data Augmentation</h2>
+        <p class="card-text">Binary classification using a basic CNN and performing basic data augmentation with a manual pipeline.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="/tf_projects/visual/fashion_mnist/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/fashion_mnist.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Fashion MNIST</h2>
+        <p class="card-text">Multi class classification using a basic CNN</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
     
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
+      <h2 class="category">generative</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="/tf_projects/generative/cgan/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/cgan.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Conditional Generative Networks</h2>
+        <p class="card-text">Generating MNIST-like examples using a conditional generative adversarial network</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
     
-  </ul>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
 
+</div>
 
+  </article>
 
 </div>
 
